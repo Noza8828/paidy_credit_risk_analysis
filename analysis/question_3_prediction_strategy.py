@@ -1,4 +1,4 @@
-Here is the combined and ordered code from the screenshots. I have stitched the functions together logically based on their line numbers and sequence within the script:"""
+"""
 QUESTION 3: How can we use this data to predict that a consumer might not pay?
 
 This script outlines comprehensive strategies for predicting consumer non-payment,
