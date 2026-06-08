@@ -35,3 +35,31 @@ def load_data(train_path='cs-training.csv'):
         
     print(f"Dataset loaded: {df.shape[0]:,} rows, {df.shape[1]} columns")
     return df
+
+def get_feature_descriptions():
+    """Return dictionary of feature descriptions."""
+    return {
+        'SeriousDlqin2yrs': 'Person experienced 90 days past due delinquency or worse (TARGET)',
+        'RevolvingUtilizationOfUnsecuredLines': 'Total balance on credit cards and personal lines of credit / credit limits',
+        'age': 'Age of borrower in years',
+        'NumberOfTime30-59DaysPastDueNotWorse': 'Number of times borrower has been 30-59 days past due (last 2 years)',
+        'DebtRatio': 'Monthly debt payments, alimony, living costs / monthly gross income',
+        'MonthlyIncome': 'Monthly income',
+        'NumberOfOpenCreditLinesAndLoans': 'Number of open loans and lines of credit',
+        'NumberOfTimes90DaysLate': 'Number of times borrower has been 90 days or more past due',
+        'NumberRealEstateLoansOrLines': 'Number of mortgage and real estate loans',
+        'NumberOfTime60-89DaysPastDueNotWorse': 'Number of times borrower has been 60-89 days past due (last 2 years)',
+        'NumberOfDependents': 'Number of dependents in family excluding themselves'
+    }
+
+def print_section_header(title):
+    """Print formatted section header."""
+    print("\n" + "="*80)
+    print(title)
+    print("="*80)
+
+def print_subsection_header(title):
+    """Print formatted subsection header."""
+    print("\n" + "-"*80)
+    print(title)
+    print("-" * 80)
