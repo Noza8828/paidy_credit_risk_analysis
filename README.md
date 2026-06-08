@@ -34,15 +34,17 @@ paidy/
 
 ## Dataset Details
 
-Target Variable - SeriousDlqin2yrs: Binary (0/1), 1 = experienced 90+ days delinquency
-Features (10 predictors)
-1 RevolvingUtilizationOfUnsecuredLines: Credit utilization ratio
-2 age: Borrower age in years
-3 NumberOfTime30-59DaysPastDueNotWorse: Count of 30-59 day lates
-4 DebtRatio: Monthly debt / monthly income
-5 MonthlyIncome: Monthly income ($)
-6 NumberOfOpenCreditLinesAndLoans: Count of credit lines
-7 NumberOfTimes90DaysLate: Count of 90+ day lates
-8 NumberRealEstateLoansOrLines: Count of real estate loans
-9 NumberOfTime60-89DaysPastDueNotWorse: Count of 60-89 day lates
-10 NumberOfDependents: Number of dependents
+### Target Variable 
+- SeriousDlqin2yrs: Binary (0/1), 1 = experienced 90+ days delinquency
+  
+### Features (10 predictors)
+1. RevolvingUtilizationOfUnsecuredLines: Credit utilization ratio
+2. Age: Borrower age in years
+3. NumberOfTime30-59DaysPastDueNotWorse: Count of 30-59 day lates
+4. DebtRatio: Monthly debt / monthly income
+5. MonthlyIncome: Monthly income ($)
+6. NumberOfOpenCreditLinesAndLoans: Count of credit lines
+7. NumberOfTimes90DaysLate: Count of 90+ day lates
+8. NumberRealEstateLoansOrLines: Count of real estate loans
+9. NumberOfTime60-89DaysPastDueNotWorse: Count of 60-89 day lates
+10. NumberOfDependents: Number of dependents
