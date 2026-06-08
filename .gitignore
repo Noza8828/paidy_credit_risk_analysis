@@ -1,0 +1,13 @@
+# Data files
+*.csv
+*.tsv
+*.dat
+*.data
+*.xls
+*.xlsx
+*.xlsm
+*.xltx
+*.xltm
+*.xlsb
+*.xlam
+
