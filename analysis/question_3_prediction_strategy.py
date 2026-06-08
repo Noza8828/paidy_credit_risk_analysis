@@ -9,6 +9,7 @@ import pandas as pd
 import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
+import shap
 from utils import load_data, print_section_header
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import (
