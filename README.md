@@ -16,6 +16,7 @@ This analysis addresses the Paidy Risk Exercise requirements by answering four k
 4. What are some recommendations you can make to manage the risk of these consumers?
 
 ## Files Structure
+```
 paidy/
 ├── README.md                          # This file
 ├── Risk_Candidate_Exercise_-_202605.pdf # Exercise requirements
@@ -29,6 +30,7 @@ paidy/
 ├── question_2_insights.py             # Question 2 analysis
 ├── question_3_prediction_strategy.py  # Question 3 analysis
 └── question_4_risk_recommendations.py # Question 4 analysis
+````
 
 ## Dataset Details
 
